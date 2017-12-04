@@ -4,29 +4,75 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 header {
-    float: left;
-    background-color: #ffffff;
-    border-color: #cccccc;
+    color: #ffffff;
+    font-size: 40px;
 }
 
 a, p {
+    font-size: 18px;
     color: #777777;
     text: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
 
 body {
-    background-image: (circles-light.png);
-}
-
-.content {
-    width: 960px;
+    background-image: url("../images/circles-light.png");
     
 }
 
-.main {
-    postition: absolute;
-    width: 650px;
-    background-color: #ffffff;
-    border-color: #dddddd;
+img {
+    margin-right: 15px;
+    float: left;
 }
 
+.name {
+    text-align: center;
+    margin-left: 23%;
+    margin-bottom: 40px;
+    height: 60px;
+    position: absolute;
+    background-color: #4aaaa5;
+}
+
+.navigation {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    text-align: right;
+    background-color: #ffffff;
+    margin-top: 0;
+    height: 60px;
+    font-size: 18px;
+}
+
+
+.content {
+    width: 960px;
+    border-color: #dddddd;
+    padding-top: 5%;
+}
+    
+    
+    
+
+
+.main {
+    position: absolute;
+    width: 650px;
+    background-color: #ffffff;
+    border-color: #cccccc;
+    border-width: 12px;
+    margin-right: 40px;
+    margin-top: 25px;
+    margin-left: 23%;
+    
+}
+
+.sidebar {
+  text-align: center;
+  width: 270px;
+  background-color: #ffffff;
+  position: absolute; 
+  right: -30px; 
+  margin-right: 23%;
+  margin-top: 25px;
+}
