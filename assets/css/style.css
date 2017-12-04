@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: Georgia, Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+}
+
+header {
+    float: left;
+    background-color: #ffffff;
+    border-color: #cccccc;
+}
+
+a, p {
+    color: #777777;
+    text: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+}
+.content {
+    width: 960px;
+    
+}
+
+.main {
+    width: 650px;
+    background-color: #ffffff;
+    border-color: #dddddd;
+}
+
