@@ -13,12 +13,18 @@ a, p {
     color: #777777;
     text: Arial, 'Helvetica Neue', Helvetica, sans-serif;
 }
+
+body {
+    background-image: (circles-light.png);
+}
+
 .content {
     width: 960px;
     
 }
 
 .main {
+    postition: absolute;
     width: 650px;
     background-color: #ffffff;
     border-color: #dddddd;
