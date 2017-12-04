@@ -19,33 +19,37 @@ body {
     
 }
 
-img {
+#bio {
     margin-right: 15px;
     float: left;
 }
 
 .name {
     text-align: center;
-    margin-left: 23%;
-    margin-bottom: 40px;
+    margin-left: 13%;
+    top: 1%;
     height: 60px;
     position: absolute;
     background-color: #4aaaa5;
+    z-index: 2;
 }
 
 .navigation {
-    position: fixed;
+    position: relative;
     width: 100%;
+    padding-right: 5%;
     text-align: center;
     text-align: right;
     background-color: #ffffff;
     margin-top: 0;
     height: 60px;
     font-size: 18px;
+    z-index: 1;
 }
 
 
 .content {
+
     width: 960px;
     border-color: #dddddd;
     padding-top: 5%;
@@ -62,8 +66,9 @@ img {
     border-color: #cccccc;
     border-width: 12px;
     margin-right: 40px;
+    left: 13%;
     margin-top: 25px;
-    margin-left: 23%;
+    /* margin-left: 13%; */
     
 }
 
@@ -72,7 +77,8 @@ img {
   width: 270px;
   background-color: #ffffff;
   position: absolute; 
-  right: -30px; 
-  margin-right: 23%;
+  right:20%; 
+  
+  /* margin-right: 13%; */
   margin-top: 25px;
 }
