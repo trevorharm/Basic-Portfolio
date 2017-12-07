@@ -139,8 +139,8 @@ li a {
     width: 150px;
     height: 200px;
     background-color: #4aaaa5;
-    border-width: 15px;
-    border-color: #0a0a0a;
+    /* border-width: 15px; */
+    /* border-color: #0a0a0a; */
 }
 
 .project1 {
@@ -149,6 +149,9 @@ li a {
     position: absolute;
     left: 75px;
     top: 150px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .project2 {
@@ -157,6 +160,9 @@ li a {
     position: absolute;
     right: 75px;
     top: 150px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .project3 {
@@ -165,6 +171,9 @@ li a {
     position: absolute;
     left: 75px;
     top: 375px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .project4 {
@@ -173,6 +182,9 @@ li a {
     position: absolute;
     right: 75px;
     top: 375px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
 }
 
 .project5 {
@@ -181,4 +193,7 @@ li a {
     position: absolute;
     left: 75px;
     top: 600px;
+    border-color: black;
+    border-style: solid;
+    border-width: 2px;
 }
